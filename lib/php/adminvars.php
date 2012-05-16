@@ -1,4 +1,4 @@
 <?php
-define('AD_LOGIN', 'imAdmin');
-define('AD_PASSWORD', 'FI^&U%$eIo');
+define('AD_LOGIN', 'login');
+define('AD_PASSWORD', 'pass');
 ?>
