@@ -1,0 +1,41 @@
+/*
+    Document   : clearLayout
+    Created on : 02.04.2012, 15:24:35
+    Author     : Veter
+    Description:
+        Purpose of the stylesheet follows.
+*/
+h1 {
+font-family: serif;
+font-size: 180%;
+}
+h2, dt{
+font-size: 150%;
+}
+h3 {
+font-size: 120%;
+}
+dt {
+line-height: 300%;
+}
+
+#header {
+margin: 0px;
+height: 100px;
+padding: 20px;
+}
+
+#content {
+padding: 15px;
+margin: 10px;
+}
+
+#footer {
+margin-top: 10px;
+padding: 5px;
+text-align: center;
+}
+
+#footer table{
+width: 1000px;
+}

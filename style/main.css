@@ -1,0 +1,148 @@
+body {
+overflow-y: scroll;
+font: medium Arial, sans-serif;
+margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+font-family: serif;
+font-size: 180%;
+margin-left: 50px;
+}
+h2 {
+font-size: 150%;
+margin-left: 30px;
+}
+h3, dt {
+font-size: 120%;
+margin-left: 20px;
+}
+
+#header table {
+    height: 100px;
+    border-collapse: collapse;
+}
+#header td {
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid black; */
+}
+#logo {
+    background-image: url(logo.png);
+    width: 150px;
+}
+#logo a {
+    display: block;
+    outline: none;
+    width: 150px;
+    height: 98px;
+    border: none;
+}
+#siteinfo {
+    height: 60px;
+}
+#pageinfo {
+    height: 40px;
+}
+
+#controlpanel {
+    width: 250px;
+    text-indent: 5px;
+}
+#colortheme {
+    height: 40px;
+
+}
+#layout {
+    height: 40px;
+}
+
+#siteinfo {
+    text-align: center;
+    font-size: 240%;
+    font-family: Arial,Helvetica,sans-serif;
+}
+#pageinfo {
+
+    font-size: 160%;
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+}
+#topmenu, #topmenu table {
+    height: 30px;
+}
+
+#topmenu table {
+    border-spacing: 5px 0px;
+}
+
+#topmenuelement {
+    width: 160px;
+    font-size: 140%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+#topmenuelement a {
+    display: block;
+    outline: none;
+    height: 28px;
+    width: 160px;
+    border: none;
+}
+
+#sidemenuelement {
+    height: 25px;
+    font-size: 120%;
+    text-align: left;
+    vertical-align: middle;
+    text-indent: 20px;
+    margin-bottom: 2px;
+}
+#sidemenuelement a {
+    display: block;
+    outline: none;
+    height: 24px;
+    width: auto;
+    border: none;
+}
+
+#content p {
+line-height: 150%;
+}
+#entrytime {
+    text-align: right;
+}
+#article {
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+}
+#news table {
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#news table p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#news table caption{
+    font-family: 'Times New Roman',Times,serif;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: left;
+    padding-left: 50px;
+}
+.newsdata {
+    vertical-align: top;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.error {
+    color: #ff0000;
+    font-family: 'Courier New',Courier,monospace;
+}
+

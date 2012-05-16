@@ -1,0 +1,35 @@
+body {
+background: pink;
+background-image: url(hello_kitty.jpg);
+background-repeat: repeat;
+color: #000033;
+}
+#content a:link, #topmenu a:link, #sidemenu a:link {
+color: #990066;
+}
+#content a:link {
+border-bottom: dotted 1px #990066;
+}
+#content a:hover{
+background: #FF00CC;
+}
+#topmenuelement:hover, #sidemenuelement:hover{
+background-color: rgb(255, 150, 255);
+background-color: rgba(255, 150, 255, 0.6);
+}
+#content a:visited {
+color: #770044;
+}
+#sidemenu a:visited, #topmenu a:visited {
+color: #990066;
+}
+
+#header, #sidemenuelement, #topmenuelement, #content, #footer{
+background-color: rgb(255, 200, 255);
+background-color: rgba(255, 200, 255, 0.9);
+}
+
+#topmenuelement.current, #sidemenuelement.current {
+    background-color: rgb(255, 0, 255);
+    background-color: rgba(255, 0, 255, 0.5);
+}

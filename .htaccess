@@ -1,0 +1,12 @@
+php_value magic_quotes_gpc off
+
+DirectoryIndex index.php
+RewriteEngine On
+AddDefaultCharset WINDOWS-1251
+Options +FollowSymlinks
+
+RewriteCond   %{REQUEST_FILENAME}       !-f
+RewriteRule   ^(.*) index.php?%{QUERY_STRING}
+
+RewriteCond   %{REQUEST_FILENAME}       .*php$
+RewriteRule   ^(.*) index.php?%{QUERY_STRING}

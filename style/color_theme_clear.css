@@ -1,0 +1,27 @@
+body {
+background: #888;
+background-repeat: repeat;
+color: #000;
+}
+
+#topmenu a:link, #sidemenu a:link {
+color: black;
+}
+#content a:link {
+border-bottom: dotted 1px #2868EB;
+}
+
+#topmenuelement:hover, #sidemenuelement:hover{
+background-color: #DDD;
+}
+
+#sidemenu a:visited, #topmenu a:visited {
+color: black;
+}
+#header, #sidemenuelement, #topmenuelement, #content, #footer{
+background-color: #FFF;
+}
+
+#topmenuelement.current, #sidemenuelement.current {
+    background-color: #BBB;
+}

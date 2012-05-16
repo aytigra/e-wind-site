@@ -1,0 +1,35 @@
+body {
+background: #fff;
+background-image: url(sky_tile.jpg);
+background-repeat: repeat;
+color: #55330D;
+}
+
+#content a:link, #topmenu a:link, #sidemenu a:link {
+color: #2868EB;
+}
+#content a:link {
+border-bottom: dotted 1px #2868EB;
+}
+#content a:hover{
+background: #BBFFFF;
+}
+#topmenuelement:hover, #sidemenuelement:hover{
+background-color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0.5);
+}
+#content a:visited {
+color: #0848CB;
+}
+#sidemenu a:visited, #topmenu a:visited {
+color: #2868EB;
+}
+#header, #sidemenuelement, #topmenuelement, #content, #footer{
+background-color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0.7);
+}
+
+#topmenuelement.current, #sidemenuelement.current {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.3);
+}
